@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="common_margin_16">16dp</dimen>
+    <dimen name="common_margin_24">24dp</dimen>
+    <dimen name="elevation_small">5dp</dimen>
+    <dimen name="base_2_height">4dp</dimen>
+
+
+
+
+</resources>

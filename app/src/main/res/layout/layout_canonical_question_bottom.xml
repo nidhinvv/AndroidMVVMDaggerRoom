@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="questionViewModel"
+            type="com.dkv.ui.question.viewmodel.QuestionViewModel"/>
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/app_header_grey"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="@{()->questionViewModel.previousClick()}">
+
+
+            <ImageView
+                android:id="@+id/imageView_previous"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_left_navarrow"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_confirm"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="@{()->questionViewModel.nextClick()}">
+
+
+            <ImageView
+                android:id="@+id/imageView_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_right_navarrow"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</layout>

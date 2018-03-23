@@ -3,4 +3,11 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="app_header_grey">#505759</color>
+    <color name="red">#D82128</color>
+    <color name="light_grey_overlay">#80ECEBEA</color>
+    <color name="header_bg_color">#505759</color>
+
+
 </resources>

@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Android MVVM Dagger Room</string>
+
+    <string name="student_name">Student Name</string>
+    <string name="menu_item_filter_done">Done</string>
+    <string name="tittle_programs">Program</string>
+    <string name="alert_warning_title">Warning </string>
+    <string name="alert_warning_message"> You are not save the exam. you will lost all the content</string>
+    <string name="button_text_warning_cancel">Cancel </string>
+    <string name="button_text_warning_ok">OK</string>
+
+    <string name="start_exam">Start Exam</string>
+    <string name="view_exam">View Exam Results</string>
+
+    <string name="tittle_profile">Profile</string>
+    <string name="tittle_exam">Exam</string>
+    <string name="tittle_exam_result">Exam Result</string>styles.xml
 </resources>
